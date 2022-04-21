@@ -44,7 +44,7 @@ function init() {
             type : 'list',
             message : questions[6],
             name : "license",
-            choices : [ "yes", "no", "maybe"]
+            choices : [ "MIT", "Artistic 2.0", "APACHE 2.0", "Bsl-1.0", "No license"]
         },
         {
             type : 'input',
