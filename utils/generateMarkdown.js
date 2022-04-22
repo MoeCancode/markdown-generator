@@ -51,13 +51,13 @@ function generateMarkdown(data) {
   ## Description 
     ${data.projectDescription}
 
-    <br>
+  <br>
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributors)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
@@ -69,27 +69,34 @@ function generateMarkdown(data) {
   <br>
 
   ## Usage 
-   ${data.usage}
+    ${data.usage}
 
   <br>
 
   ## License 
+
+    Click the link below to learn more about the license for this project:
+
   <a href = "${renderLicenseLink(data.license)}"> ${data.license} </a>
   
   <br>
 
-  ## Contributors 
-  ${data.contribution}
+  ## Contributing 
+    ${data.contribution}
 
   <br>
 
   ## Tests
-  ${data.testing}
+    ${data.testing}
 
   <br>
 
   ## Questions
-  If you have any questions about this projects, you can contact me directly at ${data.email}. You can find other interesting peojects that I have worked on at https://github.com/${data.git}.
+
+    You can find other interesting peojects that I have worked on at:
+  <a href = "https://github.com/${data.git}"> Github </a>
+
+    If you have any questions about this projects, you can contact me directly at ${data.email}. 
 `;
 }
 
