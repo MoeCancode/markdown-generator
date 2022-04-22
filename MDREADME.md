@@ -1,4 +1,4 @@
-# Markdown Generator
+# README Generator
   ---
   
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,34 +7,31 @@
   
   ## Description 
   ---
-    This project helps save a programmers time by generating a detailed and nice looking README file for their project. It prompts the user to enter values/descriptions for important README sections and outputs a markdown file that nicely displays all the information. This current README file that you are reading right now was also produced with the help of this generator.
+    Demonstrating how this generator works
 
   <br>
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributors](#contributors)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
   - [Questions](#questions)
 
   <br>
 
   ## Installation 
   ---
-    Make sure to clone down the markdown-generator repository to your local computer. If you already have Node installed, you will need to do an "npm install" in the terminal from the main directory for this repository.
+    Described in README file
 
   <br>
 
   ## Usage 
   ---
-    After installation, type "node index.js" into the terminal while inside the main directory. Answer all the prompted questions accurately and descriptively. After providing answers to 9 questions, a new markdown file will be generated for you by the name of "MDREADME.md".
+    Described in README file
 
   <br>
-
-  ## Contributors
-  ---
-  Mohammad Abuzar Razvi
 
   ## License 
   ---
@@ -42,6 +39,18 @@
 
   <a href = "https://opensource.org/licenses/MIT"> MIT </a>
   
+  <br>
+
+  ## Contributing 
+  ---
+    NA
+
+  <br>
+
+  ## Tests
+  ---
+    NA
+
   <br>
 
   ## Questions
