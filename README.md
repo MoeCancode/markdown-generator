@@ -7,7 +7,7 @@
   
   ## Description 
   ---
-    This project helps save a programmers time by generating a detailed and nice looking README file for their project. It prompts the user to enter values/descriptions for important README sections and outputs a markdown file that nicely displays all the information. This current README file that you are reading right now was also produced with the help of this generator.
+    This project helps save a programmer's time by generating a detailed and professional-looking README file for their project. It prompts the user to enter values/descriptions for important README sections and outputs a markdown file that nicely displays all the information. This current README file that you are reading right now was also produced with the help of this generator.
 
   <br>
 
@@ -30,6 +30,12 @@
   ---
     After installation, type "node index.js" into the terminal while inside the main directory. Answer all the prompted questions accurately and descriptively. After providing answers to 9 questions, a new markdown file will be generated for you by the name of "MDREADME.md".
 
+    Here is a short video that demonstrates how to use the generator:
+
+  <img src = "./assets/demonstrate.gif">
+
+  You can also find this video inside the assets folder of this repository.
+
   <br>
 
   ## Contributors
@@ -49,4 +55,4 @@
     You can find other interesting peojects that I have worked on at:
   <a href = "https://github.com/moecancode"> Github </a>
 
-    If you have any questions about this projects, you can contact me directly at a.releven@hotmail.com. 
+    If you have any questions about my projects, you can contact me directly at a.releven@hotmail.com. 
