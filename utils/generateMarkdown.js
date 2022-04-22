@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(licenseObject) {
-  return 1;
+ return `![Github licence](http://img.shields.io/badge/license-${licenseObject}-blue.svg)`
 }
 
 // TODO: Create a function that returns the license link
@@ -16,12 +16,13 @@ function renderLicenseSection(licenseObject) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   
-  ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
-
+  
+  ${renderLicenseBadge(data.license)}
+  
   <br>
   
   ## Description 
-    ${data.description}
+    ${data.projectDescription}
 
     <br>
 
@@ -36,7 +37,7 @@ function generateMarkdown(data) {
   <br>
 
   ## Installation 
-    ${data.install}
+    ${data.installation}
 
   <br>
 
@@ -51,18 +52,20 @@ function generateMarkdown(data) {
   <br>
 
   ## Contributing 
-  ${data.contributors}
+  ${data.contribution}
 
   <br>
 
   ## Tests
-  ${data.test}
+  ${data.testing}
 
   <br>
 
   ## Questions
-  If you have any questions about this projects, you can contact me directly at ${data.email}. You can find other interesting peojects that I have worked on at https://github.com/${data.github}.
+  If you have any questions about this projects, you can contact me directly at ${data.email}. You can find other interesting peojects that I have worked on at https://github.com/${data.git}.
 `;
 }
 
 module.exports = generateMarkdown;
+// module.exports = { generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection };
+
