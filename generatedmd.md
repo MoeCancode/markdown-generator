@@ -1,12 +1,12 @@
-# yesiir
+# ok
   
   
-  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
   
   <br>
   
   ## Description 
-    nosir
+    ok
 
     <br>
 
@@ -21,29 +21,29 @@
   <br>
 
   ## Installation 
-    oksir
+    ok
 
   <br>
 
   ## Usage 
-   maybesir
+   ok
 
   <br>
 
   ## License 
-   MIT
+   Boost software license 1.0
 
   <br>
 
   ## Contributing 
-  agreedsir
+  ok
 
   <br>
 
   ## Tests
-  undobtedlysir
+  ok
 
   <br>
 
   ## Questions
-  If you have any questions about this projects, you can contact me directly at byesir. You can find other interesting peojects that I have worked on at https://github.com/hisir.
+  If you have any questions about this projects, you can contact me directly at ok. You can find other interesting peojects that I have worked on at https://github.com/ok.
