@@ -1,9 +1,10 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const path = require("path");
 const genMDjs = require("./utils/generateMarkdown");
-// TODO: Create an array of questions for user input
+
+//Create an array of questions for user input
 const questions = [
   "ENTER PROJECT TITLE:",
   "ENTER PROJECT DESCRIPTION",
@@ -141,12 +142,10 @@ function init() {
     });
 }
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
-
-// TODO: Create a function to initialize app
 
 // Function call to initialize app
 init();
