@@ -40,13 +40,14 @@ function renderLicenseLink(licenseObject) {
 // Create function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  
+  ---
   
   [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
   
   <br>
   
   ## Description 
+  ---
     ${data.projectDescription}
 
   <br>
@@ -62,17 +63,19 @@ function generateMarkdown(data) {
   <br>
 
   ## Installation 
+  ---
     ${data.installation}
 
   <br>
 
   ## Usage 
+  ---
     ${data.usage}
 
   <br>
 
   ## License 
-
+  ---
     Click the link below to learn more about the license for this project:
 
   <a href = "${renderLicenseLink(data.license)}"> ${data.license} </a>
@@ -80,17 +83,19 @@ function generateMarkdown(data) {
   <br>
 
   ## Contributing 
+  ---
     ${data.contribution}
 
   <br>
 
   ## Tests
+  ---
     ${data.testing}
 
   <br>
 
   ## Questions
-
+  ---
     You can find other interesting peojects that I have worked on at:
   <a href = "https://github.com/${data.git}"> Github </a>
 

@@ -138,7 +138,7 @@ function init() {
       },
     ])
     .then( answers => {
-      writeToFile("generatedMD.md", genMDjs(answers));
+      writeToFile("MDREADME.md", genMDjs(answers));
     });
 }
 
