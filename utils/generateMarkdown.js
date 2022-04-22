@@ -54,12 +54,12 @@ function generateMarkdown(data) {
     <br>
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   <br>
 
@@ -74,11 +74,11 @@ function generateMarkdown(data) {
   <br>
 
   ## License 
-   ${data.license}
-
+  <a href = "${renderLicenseLink(data.license)}"> ${data.license} </a>
+  
   <br>
 
-  ## Contributing 
+  ## Contributors 
   ${data.contribution}
 
   <br>

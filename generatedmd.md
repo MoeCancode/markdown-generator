@@ -1,7 +1,7 @@
 # ok
   
   
-  ![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
+  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
   
   <br>
   
@@ -11,12 +11,12 @@
     <br>
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   <br>
 
@@ -31,11 +31,10 @@
   <br>
 
   ## License 
-   Boost software license 1.0
-
+   <a href = "https://opensource.org/licenses/EPL-1.0"> Eclipse Public License 1.0 </a>
   <br>
 
-  ## Contributing 
+  ## Contributors 
   ok
 
   <br>
